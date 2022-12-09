@@ -2240,6 +2240,10 @@ QuickBooks.prototype.reportTransactionList = function(options, callback) {
   module.report(this, 'TransactionList', options, callback)
 }
 
+QuickBooks.prototype.reportTransactionListWithSplits = function(options, callback) {
+  module.report(this, 'TransactionListWithSplits', options, callback)
+}
+
 /**
  * Retrieves the GeneralLedgerDetail Report from QuickBooks
  *
